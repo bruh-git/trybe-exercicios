@@ -1,0 +1,32 @@
+div:hover{
+   border-style:groove;
+   color: darkgrey;
+}
+.cor{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 40px;
+    margin: 10px;
+    width: 300px; 
+}
+.azul{
+    background-color:royalblue;
+    font-style: italic;
+}
+.vermelho{
+    background-color: red;
+}
+.roxo{
+    background-color: purple;
+    padding: 100px;
+    font-style: italic;
+
+}
+.preto{
+    background-color: black;
+}
+.branco{
+    color: black;
+    background-color: rgb(206, 182, 174);
+    font-style: italic;
+}
