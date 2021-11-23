@@ -1,0 +1,12 @@
+ol li{
+    background-color: yellow;
+}
+ol li:nth-child(even){
+    background-color: green;
+}
+ol li:nth-child(odd){
+   text-transform: capitalize;
+}
+h1, h3{
+    color: red;
+}
