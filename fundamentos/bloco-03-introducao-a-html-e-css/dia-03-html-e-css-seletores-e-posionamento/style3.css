@@ -1,0 +1,12 @@
+li:hover {
+    background-color: lemonchiffon;
+}
+h1,p{
+    text-align: center;
+}
+li:active {
+    font-family: monospace;
+}
+.none{
+    list-style: none;
+}
