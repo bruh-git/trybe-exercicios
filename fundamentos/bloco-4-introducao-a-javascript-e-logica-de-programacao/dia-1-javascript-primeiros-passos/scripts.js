@@ -30,4 +30,64 @@
 // const perimeter=(base+height)*2;
 // console.log(perimeter);
 
+// const notaDesafio = 80;
+
+// if (notaDesafio >= 80){
+//     console.log("Parabéns você foi aprovada(o)");
+// }
+// else if(notaDesafio < 80 || notaDesafio >= 60){
+//     console.log("Você está na Lista de Espera");
+// }
+// else if (notaDesafio < 60) {
+//     console.log("Você foi reprovada(o)");
+// }
+
+// const currentHour = 15;
+// let message = "";
+
+// if(currentHour >= 22){
+//     message ="Não deveríamos comer nada, é hora de dormir";
+// } else if(currentHour >= 18 && currentHour < 22){
+//     message ="Rango da noite, vamos jantar :D";
+// } else if (currentHour >= 14 && currentHour < 18) {
+//     message = "Vamos fazer um bolo pro café da tarde?";
+// }else if(currentHour >=11 && currentHour <14){
+//     message = "Hora do almoço!!!";
+// }else if (currentHour <11 && currentHour <4){
+//     message = "Hummm, cheiro de café recém passado";
+// }
+// console.log(message);
+
+// let weekDay = "sabado";
+
+// if(weekDay === "segunda-feira" || weekDay === "terça-feira"){
+//     console.log("Oba, mais um dia de aprendizado na Trybe");
+// }else if (weekDay === "terça-feira" || weekDay === "quarta-feira"){
+//     console.log("Oba, mais um dia de aprendizado na Trybe");
+// }else if (weekDay === "quintafeira" || weekDay === "sexta-feira"){
+//     console.log("Oba, mais um dia de aprendizado na Trybe");
+// }else{
+//     console.log("FINALMENTE, descanso merecido UwU");
+// }
+
+let candidata = "aprovada";
+switch(candidata){
+    case "aprovada":
+    console.log("Aprovada!");
+    break;
+
+    case "lista":
+        console.log("Lista");
+        break;
+        
+        case "reprovada":
+            console.log("Reprovada");
+            break;
+
+            default:
+                console.log("não se aplica");
+}
+
+   
+
 
