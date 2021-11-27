@@ -70,24 +70,53 @@
 //     console.log("FINALMENTE, descanso merecido UwU");
 // }
 
-let candidata = "aprovada";
-switch(candidata){
-    case "aprovada":
-    console.log("Aprovada!");
-    break;
+// let candidata = "aprovada";
+// switch(candidata){
+//     case "aprovada":
+//     console.log("Aprovada!");
+//     break;
 
-    case "lista":
-        console.log("Lista");
-        break;
+//     case "lista":
+//         console.log("Lista");
+//         break;
         
-        case "reprovada":
-            console.log("Reprovada");
-            break;
+//         case "reprovada":
+//             console.log("Reprovada");
+//             break;
 
-            default:
-                console.log("não se aplica");
-}
+//             default:
+//                 console.log("não se aplica");
+// }
 
+
+// Exercicios do dia 4.1
    
+// const a = 5;
+// const b = 10;
 
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b);
 
+// const a = 5;
+// const b = 2;
+
+// if (a > b) {
+//   console.log("'a' é maior que 'b'");
+// } else {
+//   console.log("'b' é maior que 'a'");
+// };
+
+// const a = 5;
+// const b = 2;
+// const c = 7;
+
+// if (a > b && a>c){
+//     console.log("a é maior");
+// }else if (b>a && b>c){
+//     console.log ("b é o maior");
+// }else {
+//     console.log ("c é o maior");
+// }
