@@ -120,3 +120,30 @@
 // }else {
 //     console.log ("c é o maior");
 // }
+
+// const n = 1;
+
+// if( n > 0) {
+//    console.log("positive");
+// }else if (n < 0) {
+//    console.log("negative");
+// } else {
+//    console.log("zero");
+// }
+
+const a = 50;
+const b = 60;
+const c = 60;
+
+let somaAngulos = a+b+c;
+let angulosPositivo = a >0 && b>0 && c>0;
+
+if (angulosPositivo){ 
+if (somaAngulos === 180){
+   console.log(true);
+}else {
+   console.log(false);
+}
+}else {
+   console.log("Erro: angulo invalido");
+}
