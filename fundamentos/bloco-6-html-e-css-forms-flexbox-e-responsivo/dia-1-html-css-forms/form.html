@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 6.1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="speaker-form-header">
+        <h1>Cadastre seu curriculo!</h1>
+        <p>Preencha os campos abaixo:</p>
+    </header>
+    <main>
+        <form action="" method="get" class="speaker-form">
+            <div class="form-row">
+                <fieldset class="legacy-form-row">
+                    <legend>You basic info:</legend>
+                    <div class="line-content">
+                    <label for="name-text">Full Name:</label>
+                    <input type="text" id="name-text" name="name-text" required maxlength="40"></div>
+                    <div class="line-content">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required maxlength="50" autocomplete="off"></div>
+                    <div class="line-content">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required maxlength="11"placeholder="somente numeros"></div>
+                    <div class="line-content">
+                    <label for="Address">Address:</label>
+                    <input type="text" id="Address" name="Address" required maxlength="200"></div>
+                    <div class="line-content">
+                    <label for="City">City:</label>
+                    <input type="text" id="City" name="City"required maxlength="28"></div>
+                    <div class="line-content">
+                    <label for="state">State:</label>
+                    <select name="state" id="state" required>
+                        <option disabled selected value>Selecione seu estado</option>
+                    </select></div>
+                    <div class="line-content">
+                    <label for="tipo">Tipo:
+                    <input type="radio" id="tipo" name="tipo" value="Cs"required> Casa
+                    <input type="radio" id="tipo" name="tipo" value="apt"required> Apt </div>
+                </fieldset>
+                <div class="line-content">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+                <fieldset class="legacy-form-row">
+                    <legend>You job info:</legend>
+                        <div class="line-content">
+                          <label for="resume">Resumo do currículo:</label>
+                          <textarea id="resume" name="resume" maxlength="1000" cols="100" rows="20" required></textarea>
+                        </div>
+                        <div class="line-content">
+                            <label for="role">Cargo: </label>
+                            <input type="text" name="role" id="role" maxlength="40" required>
+                          </div>
+             </div> 
+        </form>
+    </main>
+    
+</body>
+<script src="script.js"></script>
+</html>
